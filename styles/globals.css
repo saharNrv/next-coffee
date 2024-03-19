@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: burlywood !important;
+}
+
+.aboutName {
+  @apply flex items-center justify-center flex-col py-10;
+}
+.aboutName h3 {
+  @apply text-amber-400;
+}
+.aboutName h2 {
+  font-size: 40px;
+  letter-spacing: 0.5rem;
+  margin: 10px 0px;
+}

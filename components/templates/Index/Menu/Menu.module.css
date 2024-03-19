@@ -1,0 +1,14 @@
+.menu {
+  padding: 40px;
+  background-color: #f7f6f0;
+}
+.menuWrap {
+  @apply container mx-auto grid grid-cols-2 gap-4 pt-4;
+}
+.menuWrap h2 {
+  text-align: center;
+  color: #da9f5b;
+}
+.menuBox {
+  margin-top: 20px;
+}

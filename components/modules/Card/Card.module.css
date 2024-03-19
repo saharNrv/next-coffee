@@ -1,0 +1,21 @@
+.cardWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.img {
+  width: 300px;
+}
+.cardWrap h2 {
+  margin-bottom: 10px;
+  color: burlywood;
+}
+.cardWrap p {
+  color: #b5b4b4;
+}

@@ -1,0 +1,14 @@
+.testimonialItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.testimonialItem h3 {
+  font-size: 30px;
+  color: orange;
+}
+.testimonialItem p {
+  margin-top: 10px;
+  color: #666;
+}

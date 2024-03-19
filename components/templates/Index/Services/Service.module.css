@@ -1,0 +1,7 @@
+.serviceWrap {
+  background-color: #f7f6f0;
+  padding: 80px 0px;
+}
+.boxWrap {
+  @apply container mx-auto grid grid-cols-2 gap-4;
+}

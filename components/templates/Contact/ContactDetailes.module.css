@@ -1,0 +1,104 @@
+.contact {
+  padding: 150px 0px;
+  background-color: #fffbf2;
+}
+.contactWrap {
+  @apply container mx-auto grid grid-cols-2;
+  /* margin-top: 150px;
+  margin-bottom: 200px; */
+}
+.imgWrap {
+  background: url("/images/bg.jpg") center no-repeat;
+  background-size: cover;
+  height: 550px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+.imgWrap h2 {
+  font-size: 50px;
+  color: orange;
+}
+.imgWrap h3 {
+  font-size: 35px;
+}
+.imgWrap p {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.imgWrap ul {
+  list-style: none;
+}
+.imgWrap li {
+  margin-bottom: 10px;
+}
+.formWrap {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 60px;
+  border-radius: 10px;
+  background-color: #342119;
+}
+.formWrap h3 {
+  font-size: 45px;
+  color: orange;
+  margin-bottom: 20px;
+}
+.formWrap form {
+  width: 100%;
+}
+.inputWrap {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.inputWrap input {
+  width: 100%;
+  padding: 15px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: inherit;
+  border: 1px solid #da9f5b;
+  color: #fff;
+}
+.inputWrap input:focus {
+  color: #fff;
+}
+.textareaWrap {
+  width: 100%;
+}
+.textareaWrap textarea {
+  width: 100%;
+  outline: none;
+  resize: none;
+  padding: 15px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 1px solid #da9f5b;
+  font-size: 16px;
+  color: #fff;
+}
+.textareaWrap textarea:focus {
+  color: #fff;
+}
+.btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #da9f5b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

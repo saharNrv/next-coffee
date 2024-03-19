@@ -1,0 +1,25 @@
+.headerPage {
+  background: url("/images/bg.jpg") center no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.headerPage h1 {
+  text-align: center;
+  color: orange;
+  font-size: 35px;
+  margin-bottom: 12px;
+}
+.headerPage span {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  color: #fff;
+}

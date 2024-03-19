@@ -1,0 +1,64 @@
+.aboutIndex {
+  /* height: 100%; */
+  background-color: rgb(247, 246, 241);
+  padding: 30px;
+}
+.aboutCol {
+  @apply container mx-auto grid grid-cols-3 gap-4;
+}
+.colBg {
+  /* background-color: red; */
+  padding: 12px;
+}
+.colBg h2 {
+  font-size: 35px;
+  color: #444;
+}
+
+.colBg h3 {
+  margin: 10px 0px;
+  width: 300px;
+}
+.colBg p {
+  line-height: 1.5;
+  color: #777;
+
+  text-align: justify;
+}
+
+.btn1 {
+  background-color: #33211d;
+  padding: 15px 24px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.spanWrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.spanWrap span {
+  margin-bottom: 10px;
+}
+.btn2 {
+  background-color: #da9f5b;
+  padding: 15px 24px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.img {
+  width: 100%;
+}
+.aboutWrapp {
+  margin-top: 100px;
+}

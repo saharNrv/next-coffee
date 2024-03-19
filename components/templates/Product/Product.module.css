@@ -1,0 +1,53 @@
+.product {
+  background: url("https://daqiantimes.com/wp-content/uploads/2019/01/The-Grounds.jpg")
+    center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productWrap {
+  @apply container mx-auto grid grid-cols-2;
+}
+.star {
+  color: orange;
+}
+.productImgWrap {
+  width: 100%;
+}
+.productImgWrap img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.info h4 {
+  font-size: 50px;
+  color: orange;
+  font-weight: bold;
+  border-bottom: 1px solid orange;
+  margin-bottom: 20px;
+}
+
+.info span {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+  color: #fff;
+}
+.info p {
+  color: #fff;
+}
+.empty{
+  color: rgb(236, 214, 174);
+}

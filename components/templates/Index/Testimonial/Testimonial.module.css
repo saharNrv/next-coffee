@@ -1,0 +1,7 @@
+.testimonial {
+  background-color: #f7f6f0;
+  padding-bottom: 40px;
+}
+.testimonialBox {
+  @apply container mx-auto;
+}

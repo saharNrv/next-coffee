@@ -1,0 +1,30 @@
+.navbar {
+  @apply container text-white mx-auto px-3 py-5 mt-2 rounded-lg absolute top-0 z-10 left-0 right-0;
+}
+.navbarWrap {
+  @apply flex items-center justify-between;
+}
+.logoWrap {
+  @apply flex items-center;
+}
+.logo {
+  @apply text-3xl font-bold mr-3;
+}
+.seaarchBox {
+}
+.input {
+  @apply bg-inherit border-none outline-none p-2 text-2xl;
+  border-bottom: 3px solid white;
+}
+.input:focus {
+  color: white;
+}
+.list {
+  @apply list-none flex items-center;
+}
+.item {
+  @apply mx-3;
+}
+.link {
+  @apply no-underline text-white;
+}
